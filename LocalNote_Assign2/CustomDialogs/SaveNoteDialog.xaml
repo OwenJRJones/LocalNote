@@ -1,0 +1,17 @@
+﻿<ContentDialog
+    x:Class="LocalNote_Assign2.SaveNoteDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalNote_Assign2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Save New Note"
+    PrimaryButtonText="Save"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    CloseButtonText="Cancel">
+
+    <Grid Margin="0,0,0,10">
+        <TextBox x:Name="NoteTitleBox" PlaceholderText="Enter Note Title..."></TextBox>
+    </Grid>
+</ContentDialog>
